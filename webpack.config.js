@@ -82,5 +82,14 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
-//webpack         打包项目代码
-//webpack-dev-server   运行项目
+//webpack                       打包项目代码
+//webpack-dev-server            运行项目
+//git status                    查看状态
+//git add .                     添加变更的文件
+//git commit -m ""              起格名字提交到缓冲区
+//git commit log                查看日志
+//git pull origin 分支          拉分支代码
+//git push origin 分支          提交分支代码
+//git merge 分支                合并分支代码
+//git checkout 分支             切换分支
+//git checkout -b 分支名        创建并切换到新建的分支下 = git branch 分支名 + git checkout 分支名
