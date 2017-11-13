@@ -18,3 +18,17 @@ body{
 	min-width: 16rem;
 	margin: 0 auto;
 }
+.clear{
+	clear:both;
+}
+.icon{
+	display: inline-block;
+	background-image: url(../imgs/iconWeixiu.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.index-icon{
+	width: 1.05rem;
+	height: 1.05rem;
+	margin-top: 5px;
+}

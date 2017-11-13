@@ -12,11 +12,13 @@
         <div>
             <router-view></router-view>
         </div>
+        <footer-nav></footer-nav>
     </div>
 </template>
 
 <script>
 import HeaderTab from './components/header.vue';
+import FooterNav from './components/footer.vue';
 export default {
   name: 'app',
   data () {
@@ -25,7 +27,8 @@ export default {
     }
   },
   components:{
-    HeaderTab
+    HeaderTab,
+    FooterNav
   }
 }
 </script>
@@ -42,16 +45,5 @@ export default {
     }
     h1, h2 {
         font-weight: normal;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        text-align: left;
-        margin: 0 .5rem;
-    }
-    a {
-        color: #42b983;
     }
 </style>
