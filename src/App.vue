@@ -38,7 +38,7 @@ export default {
     #app {
         text-align: center;
         color: #2c3e50;
-        margin-top: 60px;
+        margin-top: 3rem;
     }
     h1, h2 {
         font-weight: normal;
@@ -49,7 +49,7 @@ export default {
     }
     li {
         text-align: left;
-        margin: 0 10px;
+        margin: 0 .5rem;
     }
     a {
         color: #42b983;
